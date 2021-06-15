@@ -10,6 +10,7 @@ html {
 
 .main {
     display: flex;
+    flex-direction: column;
 }
 
 .main-Encabezado {
@@ -21,10 +22,73 @@ html {
 
 .main-Encabezado__lista__items {
     display: inline-block;
-    list-style-type: none;
-    font-size: 1.8rem;
+    font-size: 1.8vh;
     justify-content: center;
-    padding-left: 2vw;
-    color: blue;
-    text-decoration: underline;
+    margin-left: 2vw;
+    overflow: auto;
+}
+
+.main-Principal {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-Principal__Picture {
+    width: 25vw;
+    height: 12vh;
+    display: flex;
+    margin-top: 8vw;
+    flex-direction: column;
+}
+
+.main-Principal__Picture__imagen {
+    width: 100%;
+    height: 100%;
+}
+
+.main-Principal__Contenedores:nth-child(2) {
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    margin-top: 10vw;
+}
+
+.main-Principal__Contenedores__form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-Principal__Contenedores__form__input {
+    border-radius: 30px;
+    height: 40%;
+    border: 1px solid;
+}
+
+.main-Principal__Contenedores__form__botones {
+    display: flex;
+    justify-content: center;
+}
+
+.main-Principal__Contenedores__form__botones button {
+    font-size: vw;
+    margin: 1vw;
+}
+
+.main-Principal__Contenedores:nth-child(3) {
+    width: 30vw;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-Footer {
+    background-color: #595e59;
+    width: 100vw;
+    height: 10vh;
 }
