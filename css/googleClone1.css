@@ -7,3 +7,24 @@
 html {
     font-size: 62.5%;
 }
+
+.main {
+    display: flex;
+}
+
+.main-Encabezado {
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    align-items: center;
+}
+
+.main-Encabezado__lista__items {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1.8rem;
+    justify-content: center;
+    padding-left: 2vw;
+    color: blue;
+    text-decoration: underline;
+}
