@@ -69,6 +69,11 @@ html {
     border: 1px solid;
 }
 
+.main-Principal__Contenedores__form__input:focus {
+    outline: none;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 16px 8px #595e59;
+}
+
 .main-Principal__Contenedores__form__botones {
     display: flex;
     justify-content: center;
