@@ -54,7 +54,7 @@ a:active {
 .container-logo {
     width: 60vw;
     height: 10vh;
-    margin-top: 9vh;
+    margin-top: 7vh;
     display: grid;
     grid-template-columns: 40% 1fr;
 }
@@ -237,12 +237,10 @@ a:active {
 .container-About {
     margin-top: 2vh;
     width: 90vw;
-    height: 100vh;
+    height: 70vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    background: pink;
-    gap: 2vw;
+    grid-template-rows: 20% 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .container-About-Foundation {
@@ -260,4 +258,103 @@ a:active {
     width: 80%;
     font-size: 3.5vw;
     text-align: center;
+}
+
+.container-About-Source {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-About-Title {
+    font-size: 3vw;
+    color: #3366CE;
+    font-weight: bold;
+}
+
+.container-About-Text {
+    margin-top: 3px;
+    font-size: 3vw;
+    color: #7e8283;
+    font-weight: bold;
+}
+
+.base-icon {
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+.base-icon-40px {
+    height: 38px;
+    width: 40px;
+    position: relative;
+}
+
+.common-icon {
+    background-position: 0 0px;
+}
+
+.Wikivoyage-icon {
+    background-position: 0 -445px;
+}
+
+.Wikitionary-icon {
+    background-position: 0 -480px;
+}
+
+.Wikibooks-icon {
+    background-position: 0 -125px;
+}
+
+.Wikinews-icon {
+    background-position: 0 0px;
+}
+
+.Wikidata-icon {
+    background-position: 0 -163px;
+}
+
+.Wikiversity-icon {
+    background-position: 0 -408px;
+}
+
+.Wikiquote-icon {
+    background-position: 0 -288px;
+}
+
+.MediaWiki-icon {
+    background-position: 0 -50px;
+}
+
+.Wikisource-icon {
+    background-position: 0 -329px;
+}
+
+.Wikispecies-icon {
+    background-position: 0 -368px;
+}
+
+.Meta-Wiki-icon {
+    background-position: 0 -88px;
+}
+
+.container-Apps {
+    display: grid;
+    grid-template-columns: 48% 4% 48%;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 15vh;
+    width: 90%;
+    background: grey;
+}
+
+.container-Footer {
+    display: grid;
+    grid-template-columns: 48% 4% 48%;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 10vh;
+    width: 90%;
+    background: grey;
+    margin-top: 2vw;
 }
