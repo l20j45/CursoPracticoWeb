@@ -412,7 +412,8 @@ a:active {
 .container-logo2,
 .tablet-Show,
 .tablet-Show_Search,
-.show-Pc {
+.show-Pc,
+.container-Footer2 {
     display: none;
 }
 
@@ -512,25 +513,29 @@ a:active {
     .container-Apps__Content {
         font-size: 3vw;
     }
-    .container-Footer__Title {
+    .cont .container-Footer {
+        display: none;
+    }
+    ainer-Footer__Title {
         font-size: 3vw;
     }
     .container-Footer__Links ul {
         font-size: 3vw;
     }
-    .show-Pc {
+    .show-Pc,
+    .container-Footer2 {
         display: none;
     }
 }
 
 @media (min-width: 768px) {
     .container-languaje {
-        margin-top: 8vh;
+        margin-top: 3vh;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(6, 1fr);
-        width: 800px;
-        height: 500px;
+        width: 700px;
+        height: 400px;
     }
     .container-search {
         margin-top: 2vh;
@@ -551,6 +556,7 @@ a:active {
         display: grid;
         grid-template-columns: 40% 20% 20% 20%;
         grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-bottom: 10vh;
     }
     .container-About-Foundation {
         grid-column: 1/span 1;
@@ -593,10 +599,20 @@ a:active {
     .container-About-Text {
         font-size: 2vw;
     }
-}
-
-@media (min-width: 950px) {
-    .container {
-        background: green;
+    .container-Footer {
+        display: none;
+    }
+    .container-Footer2 {
+        display: block;
+        height: 2vh;
+        width: 100%;
+        margin-top: 2vw;
+    }
+    .container-Footer__Title {
+        font-size: 1vw;
+        text-align: left;
+        text-align: center;
     }
 }
+
+@media (min-width: 950px) {}
